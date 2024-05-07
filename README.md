@@ -1,7 +1,7 @@
 # radytheprogrammer.github.io
 Web Developer Portfolio Website
 
-Home page: radytheprogrammer.github.io/start.html
+Home page: [https://radytheprogrammer.github.io/start.html]
 [Home Page](radytheprogrammer.github.io/start.html)
 
 | Rank | Languages |
