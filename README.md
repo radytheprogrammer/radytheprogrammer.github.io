@@ -1,2 +1,4 @@
 # radytheprogrammer.github.io
-Personal Website
+Web Developer Portfolio Website
+
+Home page: radytheprogrammer.github.io/start.html
