@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Radys Portfolio</title>
+    <link href="../assets/favicon-96.png" rel="icon"/>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Font Family -->
+    <!-- <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style> -->
+    <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+    <!-- Font awesome -->
+    <script src="https://kit.fontawesome.com/1506eb6f78.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg ">
+        <div class="collapse navbar-collapse montserrat">
+
+            <a id="logo" href="#"><img src="../assets/favicon-96.png" /></a>
+
+            <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Philosophy</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
+                            Demonstrations
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="demo1.html">Navigation Demo</a><br>
+                            <a class="dropdown-item" href="#">Full Page Scroller</a><br>
+                            <a class="dropdown-item" href="#">Image gallery</a>
+                            <a href="#item1" class="dropdown-item">More</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contakt</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#more" class="nav-button">More</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#item1" class="dropdown-item">Item 1</a></li>
+                            <li><a href="#item2" class="dropdown-item">Item 2</a></li>
+                            <li><a href="#item3" class="nav-button">Item 3</a></li>
+                        </ul>
+                    </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    <nav>
+        <div class="logo2"><img src="../assets/favicon-32.png" alt="Logo" class="logo"></div>
+        <ul>
+            <li><a href="#home" class="nav-button active">Home</a></li>
+            <li><a href="#about" class="nav-button">About</a></li>
+            <li><a href="#services" class="nav-button">Services</a></li>
+            <li class="dropdown">
+                <a href="#more" class="nav-button">More</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#item1" class="nav-button">Item 1</a></li>
+                    <li><a href="#item2" class="nav-button">Item 2</a></li>
+                    <li><a href="#item3" class="nav-button">Item 3</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact" class="nav-button">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Intro -->
+    <div class="container">
+        <div class="jumbotron">
+            <h1><span class="kingsman"> Rady Dimitroff</span></h1>
+            <p class="highlight">
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+            </p>
+            <p>
+                My journey in web developemnt has given me some insight on how to approach my work. It helps to have a mindset going into solving problems. For example, pulling code from gibhub and playing around with it or asking someone from the team of developers to give you a demo of the project helps in allowing you to actually run the project on your local machine and play around with the <code class=""></code>
+                Alternatively, if you feel ready enough to start your own website, picking the thing(s) that you actually want to build and figuring out how to build it is a mindset that will pay off in the long run.
+                It is more of a self-leaner and entrepreneurial mindset do design and code your own project from scratch, but when you get stuck, it is also mainly <span class="underline">UP TO YOU</span> to find a solution or decide to drop the feature altogether.
+            </p>
+            <a href="#">More..</a>
+            <button class="btn btn-success">1</button>
+            <button class="btn btn-warning">2</button>
+            <button class="btn btn-danger">3</button>
+            <button class="btn btn-info">4</button>
+            <button class="btn btn-info purple">5</button>
+
+            <button class="btn btn-primary" data-toggle="modal"
+            data-target="#devModal">More</button>
+        </div>
+    </div>
+    <!-- TODO: Add full screen scrolling functionality with 3 screens of background banner on each -->
+    <div class="container">
+        <div class="slides"
+    </div>
+
+    <!-- Google Maps API -->
+    <div class="contact-us">
+        <div id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.1595665415343!2d-79.39900899999999!3d43.7072329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b333ccd91c211%3A0xa07d80b1fbf982b7!2s2300%20Yonge%20St%2C%20Toronto%2C%20ON%20M4P%201E4!5e0!3m2!1sen!2sca!4v1716927701502!5m2!1sen!2sca" width="1080" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" &z="15"></iframe>
+        </div>
+        <div class="align-fix">
+            <div class="address-left">
+                <p> 2300 Yonge St, M4P 1E4 <br>
+                    North York, Toronto, Canada
+                </p>
+            </div>
+            <div class="vl"></div>
+            <div class="address-right">
+                <address>
+                    Call us : +1 900 661 7230<br>
+                    Mobile: +1 416 898 8892 <br>
+                    E-mail: rady.dimitroff@gmail.com
+                </address>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="about-footer">
+            <h3>About</h3>
+            <p>Rady Dimitroff is a self-employed developer that strives to write simple code that is minimalist, easy to read, well commented and maintainable.</p>
+        </div>
+        <div>
+            <h3>Contact</h3>
+            <p>1234 Street Name, City, State, 12345</p>
+            <p>Email: info@example.com</p>
+        </div>
+
+        <a href="#" id="toTop" style="display: block;">
+            <span id="toTopHover" style="opacity: 10;"><i class="fa-solid fa-angles-up"></i>^TOP^</span>
+        </a>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</body>
+</html>
